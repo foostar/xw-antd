@@ -1,0 +1,56 @@
+{
+    "name": "@myfe/xw-antd",
+    "version": "1.1.0",
+    "description": "二次封装antd",
+    "main": "xw-antd.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "babel src -d ./ && gulp"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/foostar/xw-antd.git"
+    },
+    "keywords": [
+        "xw",
+        "myfe"
+    ],
+    "author": "xiusiteng",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/foostar/xw-antd/issues"
+    },
+    "homepage": "https://github.com/foostar/xw-antd#readme",
+    "peerDependencies": {
+        "antd": "^2.x",
+        "classnames": "^2.x",
+        "less": "^2.x",
+        "prop-types": "^15.x",
+        "react": "^15.x",
+        "react-dom": "^15.x",
+        "react-router-dom": "^4.x"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-eslint": "^8.0.0",
+        "babel-loader": "^7.1.2",
+        "babel-plugin-import": "^1.4.0",
+        "babel-plugin-transform-decorators-legacy": "^1.3.4",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "css-loader": "^0.28.7",
+        "eslint": "^4.6.1",
+        "eslint-config-airbnb": "^15.1.0",
+        "eslint-plugin-babel": "^4.1.2",
+        "eslint-plugin-import": "^2.7.0",
+        "eslint-plugin-jsx-a11y": "^6.0.2",
+        "eslint-plugin-markdown": "^1.0.0-beta.6",
+        "eslint-plugin-react": "^7.3.0",
+        "gulp": "^3.9.1",
+        "less-loader": "^4.0.5",
+        "style-loader": "^0.18.2"
+    }
+}
